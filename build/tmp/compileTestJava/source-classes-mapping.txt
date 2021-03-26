@@ -1,0 +1,2 @@
+com/vertx/microservice/example/TestMainVerticle.java
+ com.vertx.microservice.example.TestMainVerticle

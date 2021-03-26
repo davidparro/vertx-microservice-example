@@ -14,7 +14,7 @@ repositories {
   mavenCentral()
 }
 
-val vertxVersion = "4.0.3"
+val vertxVersion = "3.9.6"
 val junitJupiterVersion = "5.7.0"
 
 val mainVerticleName = "com.vertx.microservice.example.MainVerticle"
@@ -31,8 +31,16 @@ dependencies {
   implementation(platform("io.vertx:vertx-stack-depchain:$vertxVersion"))
   implementation("io.vertx:vertx-web")
   implementation("io.vertx:vertx-service-discovery")
+  implementation("io.vertx:vertx-config")
   testImplementation("io.vertx:vertx-junit5")
   testImplementation("org.junit.jupiter:junit-jupiter:$junitJupiterVersion")
+  // lombok
+  compileOnly( "org.projectlombok:lombok:1.18.16")
+  annotationProcessor( "org.projectlombok:lombok:1.18.16")
+  testCompileOnly( "org.projectlombok:lombok:1.18.16")
+  testAnnotationProcessor( "org.projectlombok:lombok:1.18.16")
+  // DDBB
+  implementation("io.vertx:vertx-mongo-client")
 }
 
 java {
