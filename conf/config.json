@@ -1,0 +1,9 @@
+{
+  "host": "0.0.0.0",
+  "port": 8080,
+  "heartbeat.path": "/ping",
+  "mongo.mongo_uri": "mongodb://localhost:27017",
+  "mongo.mongo_db": "test",
+  "mongo.username": "testing",
+  "mongo.password": "testing"
+}
