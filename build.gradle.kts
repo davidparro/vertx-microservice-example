@@ -32,6 +32,7 @@ dependencies {
   implementation("io.vertx:vertx-web")
   implementation("io.vertx:vertx-service-discovery")
   implementation("io.vertx:vertx-config")
+  implementation("io.vertx:vertx-codegen:4.0.3:processor")
   testImplementation("io.vertx:vertx-junit5")
   testImplementation("org.junit.jupiter:junit-jupiter:$junitJupiterVersion")
   // lombok

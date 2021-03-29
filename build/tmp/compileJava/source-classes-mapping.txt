@@ -1,6 +1,10 @@
-com/vertx/microservice/example/handlers/ProductHandler.java
- com.vertx.microservice.example.handlers.ProductHandler
+com/vertx/microservice/example/httpVerticles/HttpVerticle.java
+ com.vertx.microservice.example.httpVerticles.HttpVerticle
 com/vertx/microservice/example/models/Product.java
  com.vertx.microservice.example.models.Product
+com/vertx/microservice/example/handlers/ProductHandler.java
+ com.vertx.microservice.example.handlers.ProductHandler
+com/vertx/microservice/example/repositories/ProductsRepository.java
+ com.vertx.microservice.example.repositories.ProductsRepository
 com/vertx/microservice/example/MainVerticle.java
  com.vertx.microservice.example.MainVerticle
